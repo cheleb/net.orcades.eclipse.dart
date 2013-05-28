@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.orcades.eclipse.dart.feature_1.0.0.qualifier.jar" id="net.orcades.eclipse.dart.feature" version="1.0.0.qualifier">
+      <category name="dart"/>
+   </feature>
+   <category-def name="dart" label="dart">
+      <description>
+         IDE plugin Dart.
+      </description>
+   </category-def>
+</site>

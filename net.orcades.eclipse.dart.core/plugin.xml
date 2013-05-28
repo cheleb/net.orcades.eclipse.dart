@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="net.orcades.eclipse.dart.core.command.ToggleDartNature"
+            description="Toggles the project Dart nature"
+            id="net.orcades.eclipse.dart.core.command.toggleDartNature"
+            name="Toggle Dart nature">
+      </command>
+   </extension>
+            <!-- locationURI="popup:org.eclipse.ui.navigator.ProjectExplorer#PopupMenu?after=additions"> -->
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="true"
+               locationURI="popup:org.eclipse.ui.projectConfigure?after=additions">
+         <command
+               commandId="net.orcades.eclipse.dart.core.command.toggleDartNature"
+               label="Toogle dart support"
+               style="push"
+               tooltip="Toogle dart support.">
+         </command>
+      </menuContribution>
+   </extension>
+  </plugin>

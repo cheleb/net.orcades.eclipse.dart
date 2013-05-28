@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Dart
+Bundle-SymbolicName: net.orcades.eclipse.dart.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.orcades.eclipse.dart.core.DartActivator
+Bundle-Vendor: Orcades LR.
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.core.commands,
+ org.eclipse.jface,
+ org.eclipse.ui.navigator,
+ org.eclipse.ui.workbench,
+ org.eclipse.jdt.core,
+ org.eclipse.ui.console,
+ org.eclipse.ui.ide,
+ org.slf4j.api,
+ org.eclipse.jdt.ui;bundle-version="3.8.2",
+ org.eclipse.ui,
+ org.eclipse.ui.ide.application;bundle-version="1.0.400",
+ com.google.dart.tools.core;bundle-version="0.5.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: net.orcades.eclipse.dart.core;
+  uses:="org.eclipse.core.runtime,
+   org.osgi.service.prefs,
+   org.eclipse.core.resources,
+   org.osgi.framework"
