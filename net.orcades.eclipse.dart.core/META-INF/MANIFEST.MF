@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Eclipse Dart
+Bundle-Name: Eclipse Dart nature support
 Bundle-SymbolicName: net.orcades.eclipse.dart.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: net.orcades.eclipse.dart.core.DartActivator
